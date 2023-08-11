@@ -6,7 +6,8 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-    indent: ['warn', 'tab'],
+    //indent: ['warn', 'tab'],
+    indent: ['tab'],
     'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
